@@ -10,12 +10,15 @@
 /* BODY */
 body {
   font-family: "Roboto Condensed" sans-serif;
+  
 }
 
 /* NAV BAR */
 .navbar {
   background-color: var(--primary-color);
   padding: 0em;
+  border-bottom: 0.19rem solid var(--secondary-color);
+  /* padding-bottom: 2em; */
 }
 
 .logo {
@@ -54,7 +57,7 @@ body {
   font-weight: 500;
   font-style: normal;
   color: var(--secondary-color);
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   letter-spacing: 0.1em;
   vertical-align: middle;
   padding-left: 1em;
@@ -66,4 +69,42 @@ body {
 
  .navbar-nav > li > a:hover {
   border-top: 0.19rem solid var(--secondary-color);
+ }
+
+
+ /* HEADER */
+
+ .image-banner {
+  position:relative;
+  background: url(hands-circle.jpg) no-repeat;
+  background-size:auto;
+  background-position: center;
+  height: 90vh;
+  background-color: #B1BDBB;
+  padding-top: 1em;
+  min-width: 50%;
+ }
+
+ .header-text {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #B1BDBB;
+ }
+
+ .header-wrapper h1{
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  letter-spacing: 0.07em;
+  padding-top: 0.1em;
+ }
+
+ .typed-text {
+  font-size: 1.5em;
+  letter-spacing: 0.07em;
+  font-weight: 500;
  }
