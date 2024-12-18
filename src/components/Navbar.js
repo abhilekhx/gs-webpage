@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import logo from "../logo2.png";
+import logo from "../logo.png";
 // REACT FONT AWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -8,7 +8,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
-      <div className="container">
+      <div className="nav-content container">
         <a className="navbar-brand" href="#">
           <img className="logo" src={logo} alt="logo"></img>
           <span className="brandName">Gentle Support</span>
