@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
+import headerImg from "../hands-circle.jpg";
 
 const Header = () => {
   return (
@@ -18,7 +19,9 @@ const Header = () => {
           typeSpeed={40}
         />
       </div>
-      <div className="image-banner"></div>
+      <div className="image-banner">
+        <img src={headerImg} alt="circle" />
+      </div>
     </div>
   );
 };
