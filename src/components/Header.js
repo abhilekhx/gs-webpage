@@ -10,10 +10,10 @@ const Header = () => {
         <ReactTyped
           className="typed-text"
           strings={[
-            "Community Participation Services",
             "Residential Habilitation Services",
-            "Community Integration Services",
+            "Community Participation Services",
             "Respite Services",
+            "Community Integration Services",
           ]}
           loop={true}
           typeSpeed={40}
