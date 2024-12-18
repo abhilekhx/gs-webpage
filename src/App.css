@@ -12,6 +12,11 @@
   background-color: var(--primary-color);
 }
 
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  margin: 0;
+}
+
 /* NAV BAR */
 .navbar {
   background-color: var(--primary-color);
@@ -21,10 +26,6 @@
   /* justify-content: center; */
   /* flex-direction: row; */
   justify-content: space-between;
-}
-
-.navbar-toggler {
-  
 }
 
 .logo {
@@ -38,8 +39,7 @@
  /*----- MENU LINKS ------- */
  nav a.nav-link {
   font-weight: 400;
-  letter-spacing: 0.0375 rem;
-  cursor: pointer;
+  letter-spacing: 0.0375rem;
  }
 
  nav ul li {
@@ -54,7 +54,7 @@
  }
 
  .navbar-brand {
-  max-width: 30rem;
+  max-width: 21rem;
   padding: 0 !important;
   height: 6rem !important;
  }
@@ -62,13 +62,11 @@
  .brandName {
   font-family: "DM Serif Text", serif;
   font-weight: 500;
-  font-style: normal;
   color: var(--secondary-color);
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   letter-spacing: 0.1em;
   vertical-align: middle;
   padding-left: 1em;
-  cursor: default;
  }
 
  .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
@@ -102,7 +100,7 @@
  }
 
  .header-wrapper{
-  background-color: var(--primary-color);
+  padding-bottom: 5em;
  }
  .header-wrapper h1{
   color: var(--secondary-color);
@@ -120,11 +118,6 @@
 }
 
 /* ABOUT US */
-.about-us-wrapper {
-display: flex;
-justify-content: center;
-/* border: 5px solid #003333; */
-}
 
 .photo-wrap {
   display: flex;
@@ -138,9 +131,10 @@ justify-content: center;
   border: 40px groove var(--secondary-color);
 }
 
-.about-us-heading {
+.about-us-wrapper h1{
   text-transform: uppercase;
-  color: var(--secondary-color);
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
   text-align: center;
 }
 
@@ -157,7 +151,8 @@ justify-content: center;
 }
 
 .services h1 {
-  color: var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -167,12 +162,12 @@ justify-content: center;
   margin: 1rem auto;
   background: var(--secondary-color);
   border-radius: 50%;
-  height: 8rem;
-  width: 8rem;
+  height: 6em;
+  width: 6em;
 }
 
 .services .icon {
-  font-size: 5rem;
+  font-size: 3.5rem;
   color: var(--primary-color);
   background-color: var(--secondary-color);
   position:absolute;
@@ -193,4 +188,70 @@ justify-content: center;
 
 .services p {
   font-size: 1.15em;
+  text-align: left;
+}
+
+/* RESOURCES */
+.resources {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.carousel {
+  padding: 2em;
+}
+
+.carousel-wrapper {
+  width: 50%;
+}
+
+.resources-content {
+  align-items: center;
+}
+
+.resources h1 {
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+
+.resource-card {
+  padding: 1em;
+  border-bottom: 5px solid var(--primary-color);
+  height: 100%;
+  max-height: 45rem;
+  max-width: 30rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* border-radius: 10%; */
+}
+
+.resource-card:hover {
+  border-bottom: 5px solid var(--secondary-color);
+}
+
+.resource-card a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.resource-card a:hover {
+  text-decoration: underline;
+}
+
+.resource-card img {
+  max-height: 15rem;
+  max-width: 25rem;
+}
+
+.resource-card {
+  font-size: 1.15em;
+  color: var(--secondary-color);
 }

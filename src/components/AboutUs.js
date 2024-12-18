@@ -3,12 +3,10 @@ import aboutUsImg from "../about-us.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="about-us-wrapper container py-5">
-      <div className="row">
+    <div className="about-us-wrapper">
+      <h1 className="py-5">About Us</h1>
+      <div className="m-auto row container py-5">
         <div className="col-lg-6 col-xm-12">
-          <div className="about-us-heading">
-            <h1>About Us</h1>
-          </div>
           <div className="about-us-text">
             <p>
               At Gentle Support, we are dedicated to empowering individuals with
