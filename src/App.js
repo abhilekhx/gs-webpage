@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
-
+import Resources from "./components/Resources";
 function App() {
   return (
     <>
@@ -12,6 +12,7 @@ function App() {
       <Header />
       <AboutUs />
       <Services />
+      <Resources />
     </>
   );
 }

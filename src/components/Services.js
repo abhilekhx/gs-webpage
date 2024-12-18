@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Services = () => {
   return (
     <div className="services">
-      <h1 className="py-5"> Our Services</h1>
+      <h1 className="py-5">Our Services</h1>
       <div className="py-1">
         <div className="container">
           <div className="row">
