@@ -14,8 +14,6 @@ const ContactUs = () => {
   const templateId = "template_l655cfr";
   const publicAPIKEY = process.env.REACT_APP_EMAILJS_PUBLIC_API_KEY;
 
-  console.log("API Key:", publicAPIKEY);
-
   const onSubmit = (data, r) => {
     sendEmail(serviceId, templateId, form.current, publicAPIKEY);
     // r.target.reset();
