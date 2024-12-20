@@ -210,7 +210,6 @@ html, body {
 }
 
 .resources h1 {
-  color: var(--secondary-color);
   text-transform: uppercase;
   letter-spacing: 0.02em;
   background-color: var(--secondary-color);
@@ -254,4 +253,100 @@ html, body {
 .resource-card {
   font-size: 1.15em;
   color: var(--secondary-color);
+}
+
+/* CONTACT US */
+.contact-us {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.contact-us h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.contact-us p {
+  font-size: 1.15em;
+  text-align: left;
+}
+
+.contact-form input, .contact-form textarea {
+  background: none;
+  border: 0;
+  border-bottom: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+
+.contact-form input:focus, .contact-form textarea:focus {
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+
+
+.contact-form textarea {
+  height: 15rem;
+}
+
+.contact-form {
+  display: flex;
+  /* flex-direction: ; */
+}
+
+.contact-1{
+  width: 50%;
+  padding-right: 2em;
+}
+.contact-2{
+  width: 60%;
+}
+
+.contact-btn {
+  border: 2px solid var(--secondary-color);
+  border-radius: 40%;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  width: 20%;
+  font-size: 1.2em;
+}
+
+.contact-btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+
+.line {
+  position: relative;
+  width: 0;
+  height: 0.125rem;
+  background: var(--secondary-color);
+  display: inline-block;
+  top: -1rem;
+}
+
+input:focus+.line, textarea:focus+.line{
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+.error-message {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: left;
+  width: 100%;
+  letter-spacing:  0.0375rem;
+  font-size: 0.83em;
+}
+
+.success-message {
+  font-weight: 500;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  /* padding: ; */
 }

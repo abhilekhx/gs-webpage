@@ -5,10 +5,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const resources = [
   {
     image: "https://nhcsoc.org/wp-content/uploads/2022/05/dhhs-logo-color.jpg",
-    title: "DHHS Disability Care",
+    title: "Bureau of Developmental Services (BDS)",
     description:
-      "DHHS is the largest agency in New Hampshire state government, responsible for the health, safety and well-being of the citizens of New Hampshire.",
-    link: "https://www.dhhs.nh.gov/",
+      "The NH developmental services system offers individuals with developmental disabilities and acquired brain disorders a wide range of supports and services within their own communities.",
+    link: "https://www.dhhs.nh.gov/programs-services/disability-care/developmental-services",
   },
   {
     image:
@@ -94,16 +94,14 @@ const ResourcesCarousel = () => {
       interval={4000}
     >
       {resources.map((resource, index) => (
-        <>
-          <div className="resource-card" key={index}>
-            <img src={resource.image} alt={resource.title} />
-            <h3 className="py-3">{resource.title}</h3>
-            <p>{resource.description}</p>
-            <a href={resource.link} target="_blank" rel="noopener noreferrer">
-              Learn More
-            </a>
-          </div>
-        </>
+        <div className="resource-card" key={index}>
+          <img src={resource.image} alt={resource.title} />
+          <h3 className="py-3">{resource.title}</h3>
+          <p>{resource.description}</p>
+          <a href={resource.link} target="_blank" rel="noopener noreferrer">
+            Learn More
+          </a>
+        </div>
       ))}
     </Carousel>
   );
