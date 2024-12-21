@@ -17,6 +17,10 @@ html, body {
   margin: 0;
 }
 
+
+#home, #about-us, #services, #contact-us, #resources {
+  scroll-margin-top: 110px;
+}
 /* NAV BAR */
 .navbar {
   background-color: var(--primary-color);

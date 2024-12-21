@@ -18,7 +18,7 @@ const Footer = () => {
                 icon={faPhone}
                 size="1x"
               />
-              <a href="tel:682-559-3989" target="_blank">
+              <a href="tel:682-559-3989" target="_blank" rel="noreferrer">
                 +1(682)559-3989
               </a>
             </div>
@@ -28,7 +28,7 @@ const Footer = () => {
                 icon={faPhone}
                 size="1x"
               />
-              <a href="tel:682-205-0497" target="_blank">
+              <a href="tel:682-205-0497" target="_blank" rel="noreferrer">
                 +1(682)205-0497
               </a>
             </div>
@@ -38,7 +38,11 @@ const Footer = () => {
                 icon={faEnvelope}
                 size="1x"
               />
-              <a href="mailto:gntlspprt@gmail.com" target="_blank">
+              <a
+                href="mailto:gntlspprt@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 gntlspprt@gmail.com
               </a>
             </div>
@@ -46,15 +50,25 @@ const Footer = () => {
           <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col text-center my-2">
-                <a className="footer-nav">Home</a>
+                <a className="footer-nav" href="#home">
+                  Home
+                </a>
                 <br />
-                <a className="footer-nav">About Us</a>
+                <a className="footer-nav" href="#about-us">
+                  About Us
+                </a>
                 <br />
-                <a className="footer-nav">Services</a>
+                <a className="footer-nav" href="#services">
+                  Services
+                </a>
                 <br />
-                <a className="footer-nav">Contact Us</a>
+                <a className="footer-nav" href="#contact-us">
+                  Contact Us
+                </a>
                 <br />
-                <a className="footer-nav">Resources</a>
+                <a className="footer-nav" href="#resources">
+                  Resources
+                </a>
                 <br />
               </div>
             </div>
