@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="text-center my-1">
               <p>15 Evelyn St, Hooksett, NH 03077</p>
             </div>
-            <div className="text-center my-1">
+            <div className="d-flex justify-content-center align-items-center my-1">
               <FontAwesomeIcon
                 className="icon my-1 px-1"
                 icon={faPhone}
@@ -22,7 +22,7 @@ const Footer = () => {
                 +1(682)559-3989
               </a>
             </div>
-            <div className="text-center my-1">
+            <div className="d-flex justify-content-center align-items-center my-1">
               <FontAwesomeIcon
                 className="icon my-1 px-1"
                 icon={faPhone}
@@ -32,7 +32,7 @@ const Footer = () => {
                 +1(682)205-0497
               </a>
             </div>
-            <div className="text-center my-1">
+            <div className="d-flex justify-content-center align-items-center my-1">
               <FontAwesomeIcon
                 className="icon my-1 px-1"
                 icon={faEnvelope}

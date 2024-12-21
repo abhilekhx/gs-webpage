@@ -133,7 +133,10 @@ const ContactUs = () => {
               </span>
             </div>
           </div>
-          <button className="btn-main-offer my-3 contact-btn" type="submit">
+          <button
+            className="btn-main-offer my-2 py-2 contact-btn"
+            type="submit"
+          >
             Submit
           </button>
         </form>
