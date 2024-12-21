@@ -30,7 +30,11 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="photo-wrap col-lg-6 col-xm-12">
-          <img className="about-us-img" src={aboutUsImg} alt="about us" />
+          <img
+            className="about-us-img"
+            src={aboutUsImg}
+            alt="Gentle Support team working together in NH to provide the best home health care agency services to people with Developmental Disabilities and Acquired Brain Disorder."
+          />
         </div>
       </div>
     </div>

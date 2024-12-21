@@ -134,7 +134,7 @@ const ContactUs = () => {
             </div>
           </div>
           <button
-            className="btn-main-offer my-2 py-2 contact-btn"
+            className="btn-main-offer my-2 py-2 contact-btn m-auto"
             type="submit"
           >
             Submit
