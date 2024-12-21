@@ -67,7 +67,7 @@ const resources = [
     link: "https://www.dhhs.nh.gov/programs-services/disability-care/area-agencies",
   },
   {
-    image: "https://www.ada.gov/assets/images/doj-logo.png",
+    image: "https://www.helenkeller.org/wp-content/uploads/2022/08/ada-1.jpg",
     title: "Americans with Disabilities Act (ADA)",
     description:
       "The Americans with Disabilities Act (ADA) protects people with disabilities from discrimination.",
@@ -75,7 +75,7 @@ const resources = [
   },
   {
     image:
-      "https://images.squarespace-cdn.com/content/v1/5d764e1af1e4874227829694/5fa4685f-351f-4972-a197-bb93bbc348cf/camp-allen-official-logo-COLOR-TRANS-20191107.jpg?format=1500w",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGsgcVTM6g5V28I0886juxjImAyELXF3TyQQ&s",
     title: "Camp Allen",
     description:
       "Camp Allen provides opportunities for friendship, growth and fun for children and adults with developmental and/or physical disabilities in an outdoor environment.",

@@ -54,7 +54,7 @@ html, body {
  }
 
  .navbar-brand {
-  max-width: 21rem;
+  max-width: 22em;
   padding: 0 !important;
   height: 6rem !important;
  }
@@ -63,10 +63,10 @@ html, body {
   font-family: "DM Serif Text", serif;
   font-weight: 500;
   color: var(--secondary-color);
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   letter-spacing: 0.1em;
   vertical-align: middle;
-  padding-left: 1em;
+  padding-left: 0.5em;
  }
 
  .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
@@ -100,6 +100,7 @@ html, body {
  }
 
  .header-wrapper{
+  padding-top: 9em;
   padding-bottom: 5em;
  }
  .header-wrapper h1{
@@ -348,5 +349,39 @@ input:focus+.line, textarea:focus+.line{
   font-weight: 500;
   background: var(--secondary-color);
   color: var(--primary-color);
-  /* padding: ; */
+}
+
+
+/* FOOTER */
+
+.footer{
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 3rem;
+}
+
+.footer .container * {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover{
+  cursor: pointer;
+  font-weight: 600;
+  /* color */
+}
+
+.footer .row{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.footer-social {
+  padding: 1em;
+  margin: 1em;
 }

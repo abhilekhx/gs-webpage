@@ -3,7 +3,7 @@ import aboutUsImg from "../about-us.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="about-us-wrapper">
+    <div id="about-us" className="about-us-wrapper">
       <h1 className="py-5">About Us</h1>
       <div className="m-auto row container py-5">
         <div className="col-lg-6 col-xm-12">
