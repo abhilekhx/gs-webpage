@@ -4,7 +4,7 @@ import headerImg from "../hands-circle.jpg";
 
 const Header = () => {
   return (
-    <div className="header-wrapper">
+    <div id="home" className="header-wrapper">
       <div className="header-text">
         <h1>supporting growth, independence and inclusion</h1>
         <ReactTyped

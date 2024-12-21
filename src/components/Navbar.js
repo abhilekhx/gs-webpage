@@ -5,9 +5,11 @@ import logo from "../logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
+import { Link } from "react-scroll";
+
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="nav-content container">
         <a className="navbar-brand" href="#">
           <img className="logo" src={logo} alt="logo"></img>
@@ -28,29 +30,59 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <Link
+                smooth={false}
+                to="home"
+                offset={-110}
+                className="nav-link"
+                href="#"
+              >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <Link
+                smooth={false}
+                to="about-us"
+                offset={-110}
+                className="nav-link"
+                href="#"
+              >
                 About Us
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <Link
+                smooth={false}
+                to="services"
+                offset={-110}
+                className="nav-link"
+                href="#"
+              >
                 Services
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link
+                smooth={false}
+                to="contact-us"
+                offset={-110}
+                className="nav-link"
+                href="#"
+              >
                 Contact Us
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <Link
+                smooth={false}
+                to="resources"
+                offset={-110}
+                className="nav-link"
+                href="#"
+              >
                 Resources
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

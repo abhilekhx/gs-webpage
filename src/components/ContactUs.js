@@ -16,7 +16,6 @@ const ContactUs = () => {
 
   const onSubmit = (data, r) => {
     sendEmail(serviceId, templateId, form.current, publicAPIKEY);
-    // r.target.reset();
   };
   const sendEmail = (serviceId, templateId, variables, publicAPIKEY) => {
     emailjs
@@ -31,7 +30,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="contact-us">
+    <div id="contact-us" className="contact-us">
       <h1 className="py-5">Contact Us</h1>
       <div className="container">
         <p className="my-5">
