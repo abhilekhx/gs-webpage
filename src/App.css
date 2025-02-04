@@ -27,13 +27,11 @@ html, body {
   padding: 0em;
   border-bottom: 0.19rem solid var(--secondary-color);
   display: flex;
-  /* justify-content: center; */
-  /* flex-direction: row; */
   justify-content: space-between;
 }
 
 .logo {
-  width: 6rem;
+  width: 6.3rem;
 }
 
 .container{

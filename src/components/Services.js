@@ -4,6 +4,8 @@ import {
   faPeopleGroup,
   faPause,
   faPuzzlePiece,
+  faHandshake,
+  faUserNurse,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -14,7 +16,7 @@ const Services = () => {
       <div className="py-1">
         <div className="container">
           <div className="row">
-            <div className="one-row col-md-3 col-sm-6">
+            <div className="one-row col-md-4 col-sm-6">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon className="icon" icon={faHome} size="2x" />
@@ -35,7 +37,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="one-row col-md-3 col-sm-6">
+            <div className="one-row col-md-4 col-sm-6">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon
@@ -61,7 +63,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="one-row col-md-3 col-sm-6">
+            <div className="one-row col-md-4 col-sm-6">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon className="icon" icon={faPause} size="2x" />
@@ -81,7 +83,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="one-row col-md-3 col-sm-6">
+            <div className="one-row col-md-4 col-sm-6">
               <div className="box">
                 <div className="circle">
                   <FontAwesomeIcon
@@ -103,6 +105,54 @@ const Services = () => {
                   and inclusive life through carefully planned activity-based
                   interventions, ultimately breaking down barriers caused by
                   disabilities.
+                </p>
+              </div>
+            </div>
+            <div className="one-row col-md-4 col-sm-6">
+              <div className="box">
+                <div className="circle">
+                  <FontAwesomeIcon
+                    className="icon"
+                    icon={faHandshake}
+                    size="2x"
+                  />
+                </div>
+                <h3>Supported Employment</h3>
+                <p>
+                  We provide employment servicees that help individuals achieve
+                  employment goals and promote independence. Staff are trained
+                  to oversee the employment planning process and possess
+                  state-mandated competencies required for employment support.
+                  Our services are designed in a way where individuals can
+                  develop skills and achieve their career goals.
+                </p>
+                <p>
+                  With Gentle Support, individuals are able to secure and
+                  maintain jobs, develop skills and achieve career goals.
+                </p>
+              </div>
+            </div>
+            <div className="one-row col-md-4 col-sm-6">
+              <div className="box">
+                <div className="circle">
+                  <FontAwesomeIcon
+                    className="icon"
+                    icon={faUserNurse}
+                    size="2x"
+                  />
+                </div>
+                <h3>Nursing</h3>
+                <p>
+                  We offer nurse trainer services in compliance with the He-M
+                  1201 state regulations. Our nurse trainers work with staff on
+                  individuals’ medical needs and health concerns and certify
+                  them for administer medication. Staff can then provide proper
+                  medication administration and timely healthcare interventions.
+                </p>
+                <p>
+                  With Gentle Support, providers are capable of safely and
+                  effectively administering medications to individuals in their
+                  care.
                 </p>
               </div>
             </div>

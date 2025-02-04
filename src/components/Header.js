@@ -14,9 +14,11 @@ const Header = () => {
             "Community Participation Services",
             "Respite Services",
             "Community Integration Services",
+            "Supported Employment Services",
+            "Nursing Services",
           ]}
           loop={true}
-          typeSpeed={40}
+          typeSpeed={20}
         />
       </div>
       <div className="image-banner">
