@@ -10,8 +10,8 @@ const ContactUs = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const serviceId = "service_ID";
-  const templateId = "template_l655cfr";
+  const serviceId = "service_prnlij3";
+  const templateId = "template_nur2dxu";
   const publicAPIKEY = process.env.REACT_APP_EMAILJS_PUBLIC_API_KEY;
 
   const onSubmit = (data, r) => {

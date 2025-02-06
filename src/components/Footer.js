@@ -39,11 +39,11 @@ const Footer = () => {
                 size="1x"
               />
               <a
-                href="mailto:gntlspprt@gmail.com"
+                href="mailto:contactus@gentlesupportnh.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                gntlspprt@gmail.com
+                contactus@gentlesupportnh.com
               </a>
             </div>
           </div>
